@@ -1,3 +1,11 @@
-main.container {
+header.container {
+  padding-bottom: 0;
+}
+
+header.container h1 {
+  margin-bottom: 0;
+}
+
+.container {
   max-width: 650px;
 }
