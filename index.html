@@ -10,6 +10,12 @@
 <body>
     <main class="container">
       <h1>Todo List</h1>
+        <form id="todo-form">
+            <fieldset role="group">
+                <input id="todo-input" type="text" name="todo" placeholder="Add a todo" aria-label="New todo" autocomplete="off" required />
+                <button type="submit">Add</button>
+            </fieldset>
+        </form>
     </main>
     <script type="module" src="dist/index.js"></script>
 </body>
